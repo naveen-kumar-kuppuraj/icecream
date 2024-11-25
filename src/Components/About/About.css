@@ -1,0 +1,177 @@
+/* General Styles */
+.custom-about {
+  font-weight: 900;
+  /* Bold text */
+  font-size: 30px;
+  /* Font size for headings */
+  text-align: center !important;
+  /* Centered text */
+}
+
+#company {
+  color: #c02080;
+  /* Company title color */
+  font-weight: 900;
+  /* Bold text */
+  margin-left: 70px;
+  /* Margin on the left */
+  font-size: 35px;
+  /* Font size */
+}
+
+/* Company Profile */
+.company-profile {
+  line-height: 30px;
+  /* Line height for readability */
+  word-spacing: 20px;
+  /* Spacing between words */
+  font-size: 20px;
+  /* Font size */
+}
+
+.dp {
+  color: #c02080;
+  /* DP color */
+}
+
+/* Paragraph Styles */
+.about-para {
+  font-size: 20px;
+  /* Font size for paragraphs */
+  line-height: 30px;
+  /* Line height for paragraphs */
+  word-spacing: 15px;
+  /* Spacing between words */
+}
+
+.para1 {
+  padding-left: 70px;
+  /* Padding on the left */
+  font-size: 18px;
+  /* Font size */
+}
+
+/* Row and Background Styles */
+.about-row {
+  margin: 20px;
+  /* Margin around the row */
+  background-color: #f8f6cd;
+  /* Background color */
+}
+
+.our-head {
+  color: #c02080;
+  /* Head color */
+  font-weight: 700;
+  /* Semi-bold text */
+}
+
+.dp-row {
+  background-color: #f8f6cd;
+  /* Background color for dp-row */
+}
+
+.row-ab3 {
+  margin-top: 30px;
+  /* Top margin */
+  padding: 30px;
+  /* Padding */
+  background-color: #f8f6cd;
+  /* Background color */
+}
+
+/* Policy Section */
+.for-policy {
+  margin-top: 50px;
+  /* Margin on top */
+}
+
+.quality-policy {
+  background-color: #34B6A5;
+  /* Background color */
+  color: white;
+  /* Text color */
+  border-radius: 7px;
+  /* Rounded corners */
+  border-top-style: dashed;
+  /* Dashed top border */
+  border-bottom-style: dashed;
+  /* Dashed bottom border */
+  margin-top: 50px;
+  /* Top margin */
+  padding: 20px;
+  /* Padding */
+}
+
+.quality-policy ul {
+  padding-left: 20px;
+  /* Padding on the left */
+  font-size: 20px;
+  /* Font size for list items */
+}
+
+.quality-policy p {
+  margin-bottom: 10px;
+  /* Bottom margin */
+}
+
+/* Image Styles */
+.about-image {
+  border-radius: 5px;
+  /* Rounded corners for images */
+  max-width: 100%;
+  /* Responsive images */
+  display: block;
+  /* Block display */
+  margin: 0 auto;
+  /* Centering */
+}
+
+/* Accordion Styles */
+.accordion-body {
+  margin-top: 10px;
+  /* Top margin */
+  background-color: #f8f6cd;
+  /* Background color */
+}
+
+/* Profile Styles */
+.profile {
+  color: #c02080 !important;
+  /* Profile text color */
+}
+
+.profile:hover {
+  color: #47d28f;
+  /* Change color on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .custom-about {
+    font-size: 24px;
+    /* Adjust font size on smaller screens */
+  }
+
+  #company {
+    font-size: 28px;
+    /* Smaller font size for company title */
+    margin-left: 0;
+    /* Remove left margin */
+    text-align: center;
+    /* Center text on smaller screens */
+  }
+
+  .para1 {
+    padding-left: 0;
+    /* Remove left padding on smaller screens */
+    font-size: 16px;
+    /* Adjust font size */
+  }
+
+  .about-para,
+  .company-profile {
+    font-size: 16px;
+    /* Adjust font size */
+  }
+}

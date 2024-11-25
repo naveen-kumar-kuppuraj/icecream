@@ -1,0 +1,87 @@
+/* Menu Section Title */
+.our-menu {
+  text-align: center;
+  /* Center-align text */
+  font-weight: 900;
+  /* Bold font weight */
+}
+
+/* Container for Menu Items */
+.menu-items {
+  padding: 30px;
+  /* Padding around the menu items */
+  row-gap: 25px;
+  /* Space between rows of menu items */
+}
+
+/* Individual Menu Card */
+.menu-card {
+  border-style: solid;
+  /* Solid border */
+  border-width: 10px;
+  /* Width of the border */
+  border-radius: 10px;
+  /* Rounded corners */
+  border-color: white;
+  /* Border color */
+  padding: 2px;
+  /* Padding inside the card */
+}
+
+/* Menu Images */
+.menu-images {
+  border-radius: 5px;
+  /* Rounded corners for images */
+  margin-top: 8px;
+  /* Space above the image */
+  margin-left: 10px;
+  /* Space to the left of the image */
+  cursor: pointer;
+  /* Change cursor to pointer on hover */
+}
+
+/* Menu Title */
+.menu-title {
+  margin-left: 200px;
+  /* Left margin for title */
+  margin-top: -115px;
+  /* Negative margin to overlap with the card */
+  color: #c02080;
+  /* Title color */
+}
+
+/* Menu Description */
+.menu-description {
+  margin-left: 200px;
+  /* Left margin for description */
+}
+
+/* Menu Button */
+.menu-button {
+  color: white;
+  /* Text color */
+  background-color: #c02080;
+  /* Background color */
+  border-color: #c02080;
+  /* Border color */
+  margin-top: 30px;
+  /* Space above the button */
+  padding: 10px 20px;
+  /* Padding inside the button */
+  border-radius: 5px;
+  /* Rounded corners */
+  font-weight: bold;
+  /* Bold text */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  transition: background-color 0.3s ease;
+  /* Smooth transition on hover */
+}
+
+/* Menu Button Hover Effect */
+.menu-button:hover {
+  background-color: #34B6A5;
+  /* Change background color on hover */
+  border-color: #34B6A5;
+  /* Change border color on hover */
+}

@@ -1,0 +1,156 @@
+/* General Styles for Images */
+.abogatto {
+  display: block;
+  /* Block display for images */
+  max-width: 100%;
+  /* Responsive width */
+  border-radius: 30px;
+  /* Rounded corners */
+  box-shadow: 0px 0px 0px 0px #c02080, -5px -5px 0px 1px #c02080;
+  /* Custom shadow */
+}
+
+/* Home Title Styles */
+.home-title {
+  color: #c02080;
+  /* Title color */
+  font-weight: 900;
+  /* Bold font */
+}
+
+/* Paragraph Styles */
+.head-para {
+  font-size: 20px;
+  /* Font size for paragraphs */
+  line-height: 30px;
+  /* Line height for readability */
+  word-spacing: 15px;
+  /* Space between words */
+}
+.home-para{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* Spacing and Layout */
+.access {
+  margin-top: 70px;
+  /* Margin for access section */
+}
+
+.home-con {
+  margin-top: 50px;
+  /* Margin for home content */
+}
+
+/* Access Paragraph Styles */
+.access-para {
+  font-size: 30px;
+  /* Font size for access paragraph */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* Font family */
+  font-weight: 500;
+  /* Medium font weight */
+}
+
+/* Button Styles */
+.button-download,
+.button-contact {
+  padding: 1em 2em;
+  /* Padding inside the button */
+  border: none;
+  /* No border */
+  border-radius: 5px;
+  /* Rounded corners */
+  font-weight: bold;
+  /* Bold font weight */
+  letter-spacing: 2px;
+  /* Spacing between letters */
+  text-transform: uppercase;
+  /* Uppercase letters */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  color: #c02080;
+  /* Button text color */
+  transition: all 1000ms;
+  /* Smooth transition */
+  font-size: 15px;
+  /* Font size */
+  position: relative;
+  /* Relative positioning for pseudo-elements */
+  overflow: hidden;
+  /* Hide overflow for animation */
+  outline: 2px solid #c02080;
+  /* Outline color */
+  height: 40px;
+  /* Button height */
+  width: 170px;
+  /* Button width */
+}
+
+/* Button Hover Effects */
+.button-download:hover,
+.button-contact:hover {
+  color: #ffffff;
+  /* Change text color on hover */
+  transform: scale(1.1);
+  /* Scale effect on hover */
+  outline: 2px solid #c02080;
+  /* Maintain outline color */
+  box-shadow: 4px 5px 17px -4px #c02080;
+  /* Shadow effect on hover */
+}
+
+/* Pseudo-element for Button Background Animation */
+.button-download::before,
+.button-contact::before {
+  content: "";
+  /* Empty content for pseudo-element */
+  position: absolute;
+  /* Absolute positioning */
+  left: -50px;
+  /* Initial position */
+  top: 0;
+  /* Align to top */
+  width: 0;
+  /* Initial width */
+  height: 100%;
+  /* Full height */
+  background-color: #c02080;
+  /* Background color */
+  transform: skewX(45deg);
+  /* Skew effect */
+  z-index: -1;
+  /* Behind the button */
+  transition: width 1000ms;
+  /* Smooth width transition */
+}
+
+/* Expand Background on Hover */
+.button-download:hover::before,
+.button-contact:hover::before {
+  width: 250%;
+  /* Expand background width on hover */
+}
+
+/* Home Image Styles */
+.image-home {
+  height: auto;
+  /* Responsive height */
+  max-width: 100%;
+  /* Responsive width */
+}
+
+/* Centered Text Styles */
+.text-center {
+  font-family: 'Open Sans', sans-serif;
+  /* Font family */
+  font-weight: 900;
+  /* Bold font */
+  font-size: 30px;
+}
+.head3{
+  color:#c02080;
+  font-weight: 700;
+  font-size: 45px;
+}

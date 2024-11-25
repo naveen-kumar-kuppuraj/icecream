@@ -1,0 +1,154 @@
+/* Responsive Form Styles */
+.responsive-border {
+  max-width: 500px;
+  /* Maximum width for the form */
+  margin: 20px auto;
+  /* Center the form */
+  padding: 20px;
+  /* Padding inside the form */
+  background-color: #f7f7f7;
+  /* Light grey background */
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+}
+
+/* Form Labels */
+.responsive-border label {
+  display: block;
+  /* Block display for labels */
+  margin-bottom: 5px;
+  /* Space below labels */
+  font-weight: bold;
+  /* Bold labels */
+  color: #333;
+  /* Dark grey color for labels */
+}
+
+/* Input and Select Styles */
+.responsive-border input,
+.responsive-border select {
+  width: 100%;
+  /* Full width */
+  padding: 10px;
+  /* Padding inside inputs */
+  margin-bottom: 15px;
+  /* Space below inputs */
+  border: 1px dotted #ccc;
+  /* Dotted border */
+  border-radius: 4px;
+  /* Rounded corners */
+  box-sizing: border-box;
+  /* Include padding in width */
+  font-size: 16px;
+  /* Font size */
+  color: #333;
+  /* Dark grey text */
+}
+
+/* Focus Styles */
+.responsive-border input:focus,
+.responsive-border select:focus {
+  border-color: #007bff;
+  /* Border color on focus */
+  outline: none;
+  /* Remove default outline */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  /* Shadow on focus */
+}
+
+/* Button Styles */
+.responsive-border .send {
+  width: auto;
+  /* Automatic width */
+  padding: 5px 10px;
+  /* Padding for the button */
+  background-color: #d63384;
+  /* Button background color */
+  color: white;
+  /* Text color */
+  border: none;
+  /* No border */
+  border-radius: 4px;
+  /* Rounded corners */
+  font-size: 14px;
+  /* Font size for button */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  transition: background-color 0.3s;
+  /* Transition effect */
+}
+
+/* Button Hover Styles */
+.responsive-border .send:hover {
+  background-color: #34B6A5;
+  /* Change background on hover */
+}
+
+/* Headings */
+.contact {
+  font-weight: 900;
+  /* Bold contact heading */
+  font-size: 50px;
+  /* Large font size */
+}
+
+.office,
+.retail {
+  font-weight: 900;
+  /* Bold office and retail headings */
+  font-size: 35px;
+  /* Medium font size */
+}
+
+.office-main,
+.outlet-retail {
+  font-weight: 600;
+  /* Semi-bold subheadings */
+  font-size: 25px;
+  /* Smaller font size */
+}
+
+/* Mail Link Styles */
+.mail {
+  color: #c02080;
+  /* Color for mail links */
+  cursor: pointer;
+  /* Pointer cursor */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .responsive-border {
+    padding: 15px;
+    /* Adjust padding for smaller screens */
+    max-width: 90%;
+    /* Make the form more flexible on small screens */
+  }
+
+  .contact {
+    font-size: 36px;
+    /* Adjust font size for contact heading */
+  }
+
+  .office,
+  .retail {
+    font-size: 28px;
+    /* Adjust font size for office and retail headings */
+  }
+
+  .office-main,
+  .outlet-retail {
+    font-size: 20px;
+    /* Adjust font size for subheadings */
+  }
+
+  .responsive-border .send {
+    padding: 8px 15px;
+    /* Adjust button padding */
+  }
+}
+.col-row{
+  margin-top: 50px;
+}

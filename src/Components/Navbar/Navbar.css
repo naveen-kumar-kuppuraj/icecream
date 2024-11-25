@@ -1,0 +1,67 @@
+.navbar {
+  background-color: #c02080 !important;
+  height: 80px;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+.nav-link {
+  padding: 25px;
+  font-size: 20px;
+  color: white !important;
+  margin: 30px;
+
+
+
+
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: #c02080 !important;
+}
+
+
+
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.logo {
+  max-width: 80%;
+  height: auto;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  .logo {
+    max-width: 60%;
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+}
+
+/* For very small screens like mobile */
+@media (max-width: 480px) {
+  .logo {
+    max-width: 50%;
+    margin-top: 30px;
+    margin-left: 5px;
+  }
+}
+/* In your Navbar.css */
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}

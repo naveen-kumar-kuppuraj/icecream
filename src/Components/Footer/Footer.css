@@ -1,0 +1,92 @@
+/* Footer Map Styles */
+.footer-map {
+  margin-top: 90px;
+  /* Space above the footer map */
+}
+
+/* Logo Styles */
+.footer-logo {
+  max-width: 100%;
+  /* Responsive logo */
+  height: auto;
+  /* Maintain aspect ratio */
+}
+
+/* Icon Link Styles */
+.icon-link {
+  color: #c02080;
+  /* Initial color for icon links */
+  transition: color 0.3s ease;
+  /* Smooth color transition */
+  padding: 15px;
+  /* Padding around icons */
+  margin-top: 30px !important;
+  /* Space above icons */
+  margin-left: 20px;
+  /* Space to the left of icons */
+}
+
+/* Icon Hover Styles */
+.icon-link:hover {
+  color: red;
+  /* Color change on hover */
+  transform: scale(1.2);
+  /* Slightly enlarge the icon */
+  transition: transform 0.5s;
+  /* Smooth transform transition */
+}
+
+/* Font Awesome Icon Size */
+.fa-2x {
+  font-size: 2em;
+  /* Increase icon size */
+}
+
+/* Footer Icons Container */
+.footer-icons {
+  margin-top: 70px;
+  /* Space above the footer icons section */
+  display: flex;
+  /* Use flexbox for alignment */
+  justify-content: center;
+  /* Center the icons */
+  flex-wrap: wrap;
+  /* Allow icons to wrap on small screens */
+}
+
+/* Opening Hours Styles */
+.opening {
+  margin-top: 80px;
+  /* Space above the opening hours section */
+  color: #c02080;
+  /* Color for opening hours text */
+  font-weight: bold;
+  /* Bold text for emphasis */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer-map {
+    margin-top: 60px;
+    /* Adjust margin for smaller screens */
+  }
+
+  .icon-link {
+    margin-top: 20px;
+    /* Less space above icons on smaller screens */
+    margin-left: 10px;
+    /* Less space to the left of icons */
+  }
+
+  .footer-icons {
+    margin-top: 50px;
+    /* Adjust space for icons */
+  }
+
+  .opening {
+    margin-top: 60px;
+    /* Less space for opening hours */
+    font-size: 18px;
+    /* Smaller font size */
+  }
+}
